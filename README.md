@@ -1,44 +1,45 @@
-Dog DNA Sequence Classifier
-Overview
-This Jupyter notebook analyzes a dataset of dog DNA sequences labeled with classes. The goal is to explore the data, perform preprocessing, and eventually build a classifier to predict the class of a DNA sequence based on its features.
+# 🧬 Dog DNA Sequence Classifier
 
-Dataset
-The dataset (dog_data.txt) contains 820 entries, each with:
+This Jupyter Notebook project explores and analyzes a dataset of dog DNA sequences labeled with class categories. The goal is to preprocess the data and build a classifier that can predict the class of a DNA sequence based on its characteristics.
 
-A DNA sequence (sequence).
+## 📄 Dataset
 
-A corresponding class label (class).
+The dataset (`dog_data.txt`) consists of **820 entries**, each containing:
+- A **DNA sequence** (`sequence`)
+- A **class label** (`class`)
 
-Notebook Contents
-Data Loading and Inspection:
+## 📘 Notebook Contents
 
-Load the dataset using Pandas.
+### 1. Data Loading and Inspection
+- Load the dataset using **Pandas**
+- Display the first few rows
+- Check for null values
 
-Display the first few rows and check for null values.
+### 2. Data Exploration
+- Explore the structure and shape of the dataset
+- Visualize class distributions and sequence patterns
 
-Data Exploration:
+### 3. Data Preprocessing
+- Handle missing values (if any)
+- Export data for further analysis (e.g., Excel)
 
-Examine the shape and structure of the dataset.
+### 4. Preliminary Analysis
+- Generate basic statistics
+- Visualize key insights from the data
 
-Visualize class distributions or sequence patterns (if applicable).
+## 📦 Dependencies
 
-Data Preprocessing:
+- Python 3.x
+- Libraries:
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
 
-Handle missing values (if any).
+## 📎 Notebook Link
 
-Export data for further analysis (e.g., to Excel).
+🔗 View the full notebook on Kaggle:  
+[Dog DNA Classifier Notebook](https://www.kaggle.com/code/ahmedelshamy1/dog-dna-classifier-nb)
 
-Preliminary Analysis:
+---
 
-Basic statistics and visualizations to understand the data.
-
-Dependencies
-Python 3.x
-
-Libraries:
-
-numpy
-
-pandas
-
-matplotlib
+Feel free to fork or adapt this project for your own bioinformatics or sequence classification tasks.
